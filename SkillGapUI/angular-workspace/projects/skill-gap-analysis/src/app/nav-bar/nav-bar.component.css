@@ -1,0 +1,37 @@
+*{
+    margin: 0%;
+}
+svg{
+    height: 4rem;
+    position: relative;
+}
+
+.icons span{
+    margin-right: 20px;
+}
+header a img{
+   height: 3rem;
+   border-radius: 50%;
+}
+header{
+    height: 5rem;
+}
+
+.icons a {
+    font-size: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    color: rgb(239, 117, 11); 
+    font-weight: bold;
+}
+.box{
+    /* background-color: black; */
+    background: linear-gradient(90deg, rgb(15, 10, 18) 10%, rgb(31, 134, 186) 53%, rgb(200, 251, 240) 100%, rgb(191, 252, 239) 100%);
+  
+/* border: 2px solid red; */
+
+}
+#shere{
+    visibility: hidden;
+}
+
