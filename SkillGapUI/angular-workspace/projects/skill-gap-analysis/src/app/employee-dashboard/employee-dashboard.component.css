@@ -1,0 +1,33 @@
+
+main{
+  border:none;
+  width: 17%;
+  height: 100vh;  
+  background: rgb(244,244,215);
+background: linear-gradient(0deg, rgba(248,121,7,1) 0%, rgba(255,127,12,1) 7%, rgba(255,121,0,1) 12%, rgba(65,37,11,1) 58%, rgba(25,13,1,1) 81%, rgba(15,15,15,1) 100%);
+box-shadow: 20px 6px 35px .4rem rgb(121, 111, 111);
+}
+.list-group-item {
+    background-color: transparent;
+    border: 1px solid #ddd;
+    border-radius: 10rem;
+    color: #fff;
+    }
+svg{
+    height: 4rem;
+    position: relative;
+    
+}
+ul{
+    height: 200px;
+}
+aside{
+    position: absolute;
+    top: 1%;
+    width: 60%;
+    left: 20%;
+}
+a{
+    text-decoration: none;
+}
+
