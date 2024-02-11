@@ -5,6 +5,7 @@ import { EmployeeSkillsComponent } from './employee-skills/employee-skills.compo
 import { EmployeeTrainingsComponent } from './employee-trainings/employee-trainings.component';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
+import { WhoareyouComponent } from './whoareyou/whoareyou.component';
 
 const routes: Routes = [
   {
@@ -18,6 +19,9 @@ const routes: Routes = [
   },
   {
     path:'home',component:HomeComponent             
+  },
+  {
+    path:"whoareyou",component:WhoareyouComponent
   }
 
 ]; AppComponent
