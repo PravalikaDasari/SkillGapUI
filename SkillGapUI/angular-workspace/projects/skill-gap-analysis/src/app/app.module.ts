@@ -9,6 +9,7 @@ import { EmployeeProfileComponent } from './employee-profile/employee-profile.co
 import { EmployeeSkillsComponent } from './employee-skills/employee-skills.component';
 import { EmployeeTrainingsComponent } from './employee-trainings/employee-trainings.component';
 import { HomeComponent } from './home/home.component';
+import { WhoareyouComponent } from './whoareyou/whoareyou.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { HomeComponent } from './home/home.component';
     EmployeeProfileComponent,
     EmployeeSkillsComponent,
     EmployeeTrainingsComponent,
-    HomeComponent
+    HomeComponent,
+    WhoareyouComponent
   ],
   imports: [
     BrowserModule,
@@ -27,6 +29,6 @@ import { HomeComponent } from './home/home.component';
   providers: [
     provideClientHydration()
   ],
-  bootstrap: [EmployeeDashboardComponent]
+  bootstrap: [HomeComponent]
 })
 export class AppModule { }
