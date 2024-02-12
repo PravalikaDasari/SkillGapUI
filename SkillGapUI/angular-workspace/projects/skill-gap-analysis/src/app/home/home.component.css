@@ -23,8 +23,12 @@ section div{
     color: white;
     margin-left: 10%;
 }
+
+
+
 .btn:hover{
     background-color: black;
     color: rgb(239, 117, 11);
     border: 2px solid rgb(239, 117, 11) ;
+
 }
